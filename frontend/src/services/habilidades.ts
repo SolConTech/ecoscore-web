@@ -1,7 +1,7 @@
 import type { ApiHabilidade } from './apiTypes'
 import type { Habilidade } from '../types/habilidade'
 
-const BASE_URL = import.meta.env.VITE_API_URL as string | undefined
+const BASE_URL: string | undefined = import.meta.env.VITE_API_URL
 
 function habilidadesDaApi(raw: ApiHabilidade[]): Habilidade[] {
   return raw.map((item) => ({
