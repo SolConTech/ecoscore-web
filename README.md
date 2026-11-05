@@ -203,9 +203,8 @@ projeto não tem economia dupla.
 
 ## Como usar
 
-- **Repositório no GitHub:** [github.com/francosdev/challenge-soulup-solcon](https://github.com/francosdev/challenge-soulup-solcon)
-- **Front-end no repositório:** [github.com/francosdev/challenge-soulup-solcon/tree/main/frontend](https://github.com/francosdev/challenge-soulup-solcon/tree/main/frontend)
-- **Deploy na Vercel:** _(inserir URL do deploy)_
+- **Repositório no GitHub:** [https://github.com/SolConTech/ecoscore-web](https://github.com/SolConTech/ecoscore-web)
+- **Deploy na Vercel:** [https://ecoscore-solcon.vercel.app](https://ecoscore-solcon.vercel.app/)
 - **Vídeo no YouTube:** _(inserir link do vídeo)_
 
 **Pré-requisito:** Node.js 18+.
@@ -273,9 +272,9 @@ componentes de UI prontos.
 ## Contato
 
 - **E-mail da equipe:** [francosdevs@gmail.com](mailto:francosdevs@gmail.com)
-- **Issues no GitHub:** [abrir uma issue](https://github.com/francosdev/challenge-soulup-solcon/issues)
+- **Issues no GitHub:** [abrir uma issue](https://github.com/SolConTech/ecoscore-web/issues)
 - **Formulário no site:** rota `/contato`
-- **API publicada:** _(inserir URL da API Java)_
+- **API publicada:** [http://ecoscore-java-db.onrender.com](http://ecoscore-java-db.onrender.com)
 
 ---
 
