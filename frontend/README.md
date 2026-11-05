@@ -34,6 +34,22 @@ O site estático continua recuperável no histórico do Git, no commit
 
 ---
 
+## Tecnologias utilizadas
+
+| Tecnologia | Versão | Finalidade |
+|-----------|--------|-----------|
+| React | 18 | Biblioteca de UI |
+| TypeScript | 5 | Tipagem estática |
+| Vite | 5 | Build e servidor de desenvolvimento |
+| TailwindCSS | 3 | Estilização e responsividade |
+| react-router-dom | 6 | Roteamento SPA (estático e dinâmico) |
+| react-hook-form | 7 | Formulários com validação |
+| lucide-react | — | Ícones SVG |
+
+> Sem Bootstrap, Material UI, Chakra, Axios ou template pronto.
+
+---
+
 ## Stack
 
 | Camada | Tecnologia |
@@ -259,6 +275,7 @@ componentes de UI prontos.
 - **E-mail da equipe:** [francosdevs@gmail.com](mailto:francosdevs@gmail.com)
 - **Issues no GitHub:** [abrir uma issue](https://github.com/francosdev/challenge-soulup-solcon/issues)
 - **Formulário no site:** rota `/contato`
+- **API publicada:** _(inserir URL da API Java)_
 
 ---
 
