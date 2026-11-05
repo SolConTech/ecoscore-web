@@ -35,7 +35,7 @@ export function Footer() {
     <footer className="border-t border-line bg-surf">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="sm:col-span-2">
+          <div className="sm:col-span-2 lg:col-span-2">
             <Logo />
             <p className="mt-4 max-w-sm font-sans text-sm leading-relaxed text-ink-muted">
               Gamificação sustentável desenvolvida para o Challenge FIAP 2026 em parceria com a SoulUp

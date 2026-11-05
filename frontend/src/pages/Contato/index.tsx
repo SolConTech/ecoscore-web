@@ -71,7 +71,7 @@ export default function Contato() {
       />
 
       <section className="bg-white">
-        <div className="mx-auto grid max-w-6xl items-start gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.2fr_1fr] lg:py-20">
+        <div className="mx-auto grid max-w-6xl items-start gap-8 px-4 py-16 sm:px-6 sm:gap-12 lg:grid-cols-[1.2fr_1fr] lg:py-20">
           {/* FORMULÁRIO */}
           <div>
             {ultimoEnvio ? (
