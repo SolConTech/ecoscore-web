@@ -189,6 +189,7 @@ projeto não tem economia dupla.
 
 - **Repositório no GitHub:** [github.com/francosdev/challenge-soulup-solcon](https://github.com/francosdev/challenge-soulup-solcon)
 - **Front-end no repositório:** [github.com/francosdev/challenge-soulup-solcon/tree/main/frontend](https://github.com/francosdev/challenge-soulup-solcon/tree/main/frontend)
+- **Deploy na Vercel:** _(inserir URL do deploy)_
 - **Vídeo no YouTube:** _(inserir link do vídeo)_
 
 **Pré-requisito:** Node.js 18+.
@@ -203,6 +204,20 @@ npm run build     # checagem de tipos + build de produção em dist/
 npm run preview   # serve o build de produção
 npm run lint      # checagem de tipos (tsc)
 ```
+
+---
+
+## Deploy
+
+O projeto é publicado na **Vercel** com as configurações padrão para aplicações Vite.
+
+```bash
+npm run build   # gera a pasta dist/
+```
+
+> No painel da Vercel, basta apontar para a pasta `frontend/`, definir **Build Command** como `npm run build` e **Output Directory** como `dist`.
+
+Após o deploy, adicione a variável de ambiente `VITE_API_URL` com a URL base da API Java publicada (ex.: `https://ecoscore-api.example.com`). Sem ela, o app lê os dados de `public/data/`.
 
 ---
 
