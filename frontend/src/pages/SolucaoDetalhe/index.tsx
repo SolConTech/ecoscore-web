@@ -74,7 +74,7 @@ export default function SolucaoDetalhe() {
       <PageHero tag={`Habilidade 0${habilidade.ordem}`} titulo={habilidade.nome} texto={habilidade.chamada} />
 
       <section className="bg-white">
-        <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.4fr_1fr] lg:py-20">
+        <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 py-16 sm:px-6 md:grid-cols-[1.4fr_1fr] lg:py-20">
           <div>
             <h2 className="font-display text-2xl font-semibold text-navy">
               Quatro etapas. Conclua todas para desbloquear a habilidade.

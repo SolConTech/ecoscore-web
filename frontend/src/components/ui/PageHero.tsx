@@ -20,7 +20,7 @@ export function PageHero({ tag, titulo, texto }: PageHeroProps) {
         <Badge tone="azul">
           {tag}
         </Badge>
-        <h1 className="mt-4 max-w-3xl font-display text-3xl font-semibold leading-tight text-navy sm:text-4xl lg:text-5xl">
+        <h1 className="mt-4 max-w-3xl font-display text-3xl font-semibold leading-tight text-navy sm:text-4xl lg:text-5xl xl:text-6xl">
           {titulo}
         </h1>
         <p className="mt-4 max-w-2xl font-sans text-base leading-relaxed text-ink-muted">{texto}</p>

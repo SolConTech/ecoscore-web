@@ -17,7 +17,7 @@ export default function Home() {
           <Spores />
         </div>
 
-        <div className="relative mx-auto flex max-w-3xl flex-col items-center px-4 py-20 text-center sm:px-6 lg:py-28">
+        <div className="relative mx-auto flex max-w-3xl flex-col items-center px-4 py-16 text-center sm:px-6 sm:py-24 lg:py-28">
           <div className="flex flex-col items-center gap-6">
             <div className="flex flex-wrap items-center gap-2 font-sans text-xs text-ink-muted">
               <span className="inline-flex items-center gap-1.5">
